@@ -11,5 +11,7 @@ public class Main {
                         .lastname("lastname")
                         .birthdate(LocalDate.of(1985, 03,12))
                         .build();
+
+        System.out.println(person);
     }
 }
